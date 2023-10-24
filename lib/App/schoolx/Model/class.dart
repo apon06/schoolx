@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:klutter_youtube_player_iframe_plus/klutter_youtube_player_iframe_plus.dart';
 import 'package:schoolx/App/schoolx/widgets/glowing_text.dart';
-import 'package:youtube_player_iframe_plus/youtube_player_iframe_plus.dart';
-
 import '../widgets/glowing_continer.dart';
 
 class ClassModel extends StatelessWidget {
@@ -37,9 +36,9 @@ class ClassModel extends StatelessWidget {
                     itemBuilder: (context, index) {
                       return Center(
                         child: Padding(
-                          padding: const EdgeInsets.all(5.0),
+                          padding: const EdgeInsets.all(3),
                           child: GlowingContiner(
-                            height: 260,
+                            height: 320,
                             width: MediaQuery.of(context).size.width * 0.9,
                             borderRadius: 5,
                             color: const Color.fromRGBO(19, 32, 67, 1),
@@ -50,25 +49,15 @@ class ClassModel extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Padding(
-                                  padding: const EdgeInsets.all(5.0),
-                                  child: YoutubePlayerControllerProvider(
-                                    controller: YoutubePlayerController(
-                                      initialVideoId:
-                                          className[index][classId].toString(),
-                                      params: const YoutubePlayerParams(
-                                        startAt: Duration(seconds: 0),
-                                        autoPlay: false,
-                                        showControls: true,
-                                        showFullscreenButton: true,
-                                      ),
-                                    ),
-                                    child: const YoutubePlayerIFramePlus(
-                                      aspectRatio: 16 / 9,
-                                    ),
+                                  padding: const EdgeInsets.all(3),
+                                  child: YoutubePlayerIframePlusHelp(
+                                    initialVideoId:
+                                        className[index][classId].toString(),
+                                    aspectRatio: 16 / 9,
                                   ),
                                 ),
                                 Padding(
-                                  padding: const EdgeInsets.all(5.0),
+                                  padding: const EdgeInsets.all(3),
                                   child: GlowingText(
                                     text: className[index][classSubject]
                                         .toString(),

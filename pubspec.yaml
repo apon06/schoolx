@@ -36,22 +36,24 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   go_router: ^11.1.3
-  meta_seo: ^3.0.7
-  translator: 
-  provider: ^6.0.5
-  flutter_riverpod: ^2.4.4
-  device_preview: ^1.1.0
-  flutter_bloc: ^8.1.3
+  # meta_seo: ^3.0.7
+  # translator: 
+  # provider: ^6.0.5
+  # flutter_riverpod: ^2.4.4
+  # device_preview: ^1.1.0
+  # flutter_bloc: ^8.1.3
   youtube_player_iframe_plus: ^2.3.2
-  audioplayers: ^5.2.0
-  chewie: ^1.7.1
+  # audioplayers: ^5.2.0
+  # chewie: ^1.7.1
   google_fonts: 
-  image_picker: ^1.0.4
-  url_launcher: ^6.1.14
-  flutter_launcher_icons: ^0.13.1
+  # image_picker: ^1.0.4
+  # url_launcher: ^6.1.14
+  # flutter_launcher_icons: ^0.13.1
   appinio_video_player: ^1.2.2
-  dio: ^5.3.3
-  http: ^0.13.6
+  # dio: ^5.3.3
+  # http: ^0.13.6
+  # youtube_player_flutter: 
+  klutter_youtube_player_iframe_plus: ^0.0.1
 
 dev_dependencies:
   flutter_test:

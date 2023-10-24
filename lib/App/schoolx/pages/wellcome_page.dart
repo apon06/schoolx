@@ -19,14 +19,14 @@ class WellComePage extends StatelessWidget {
             child: Column(
               children: [
                 const Padding(
-                  padding: EdgeInsets.fromLTRB(10, 30, 0, 0),
+                  padding: EdgeInsets.fromLTRB(95, 30, 0, 0),
                   child: GlowingText(
                     text: 'Wellcome Schoolx',
                     fontWeight: FontWeight.bold,
                     color: Colors.white,
                     shadowColor: Colors.blue,
                     blueRadius: 50,
-                    fontsize: 70,
+                    fontsize: 60,
                   ),
                 ),
                 Padding(

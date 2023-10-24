@@ -15,4 +15,8 @@ final physicesData = [
     'PhysicesId': 'yKoN7CXyl_s',
     'PhysicesSubject': 'Physices Part 4',
   },
+  {
+    'PhysicesId': 'https://www.youtube.com/watch?v=bWXol_8MLzw',
+    'PhysicesSubject': 'Physices Part 5',
+  },
 ];

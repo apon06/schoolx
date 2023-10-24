@@ -1,5 +1,3 @@
-// ignore_for_file: non_constant_identifier_names, avoid_types_as_parameter_names
-
 import 'package:flutter/material.dart';
 import 'package:schoolx/App/schoolx/widgets/glowing_continer.dart';
 import 'package:schoolx/App/schoolx/widgets/glowing_text.dart';
